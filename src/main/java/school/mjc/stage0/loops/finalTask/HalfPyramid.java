@@ -9,7 +9,7 @@ public class HalfPyramid {
             for (int j = 1; j <= cathetusLength - i; j++) {
                 System.out.print(" ");
             }
-            tempI = i;
+            tempI = i+1;
             boolean flag = true;
             for (int j = 1; j <= temp; j++) {
 
@@ -21,6 +21,7 @@ public class HalfPyramid {
                     System.out.print(" ");
                     tempI++;
                 }
+
             }
             temp += 2;
 
