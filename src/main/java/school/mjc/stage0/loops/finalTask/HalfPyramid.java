@@ -5,7 +5,7 @@ public class HalfPyramid {
         int temp = 1;
         int tempI;
 
-        for (int i = 1; i < cathetusLength-2; i++) {
+        for (int i = 1; i <= cathetusLength; i++) {
             for (int j = 1; j < cathetusLength - i; j++) {
                 System.out.print(" ");
             }

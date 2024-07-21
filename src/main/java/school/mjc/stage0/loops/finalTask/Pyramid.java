@@ -5,7 +5,7 @@ public class Pyramid {
         int temp = 1;
         int tempI;
 
-        for (int i = 1; i < cathetusLength-1; i++) {
+        for (int i = 1; i <= cathetusLength; i++) {
             for (int j = 1; j < cathetusLength - i; j++) {
                 System.out.print(" ");
             }
